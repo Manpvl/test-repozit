@@ -1,0 +1,45 @@
+div.to_order-header {
+    background-image: url("../images/new-year-header-background.jpg");
+    background-attachment: fixed;
+    background-position: 200px -80px;
+}
+div.to_order-content>div.to_order-content__item {
+    margin-bottom: 20px; padding: 10px;
+    background-color: #E9E7F7;
+    transition: 700ms;
+}
+div.to_order-content>div.to_order-content__item:hover {
+    background-color: #e4e2f2;
+    transition: 300ms;
+}
+div.to_order-content__item>h1 {
+    text-align: center;
+    margin-top: 0;
+    color: darkgreen;
+}
+div.to_order-content__item>h2 {
+    text-align: center;
+    margin-top: 0;
+    color: darkgreen;
+}
+div.to_order-content>div.to_order-content__item>div>div:first-child {
+    float: left;
+    width: 302px;
+}
+div.to_order-content>div.to_order-content__item>div>div:first-child>img {
+    width: 302px;
+}
+div.to_order-content>div.to_order-content__item>div>div:nth-child(2) {
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+}
+div.to_order-content>div.to_order-content__item>div>div:last-child {
+    clear: both;
+}
+div>form>label {
+    font-style: italic;
+}
+div>form {
+    margin-left: 49px;
+}
