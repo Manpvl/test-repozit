@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ товара</title>
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/to_order.css"/>
+</head>
+<body>
+<div class="content">
+    <div>
+        <div class="page-header to_order-header">
+            <h1>+7 904 909-71-43</h1>
+        </div>
+        <div class="menu">
+            <a href="index.html">Главная</a> |
+            <a href="to_order.html">Заказать ёлку</a> |
+            <a href="contacts.html">Контакты</a> |
+        </div>
+        <div class="page-content to_order-content">
+            <div class="to_order-content__item">
+                <h1>Заказать ёлку</h1>
+                <h2>Сделать заказ</h2>
+                <div>
+
+                    <div>
+                        <img src="images/snegurochka.jpg" title="Snegurka" alt="foto">
+                    </div>
+
+                    <div>
+                        <form>
+                            <input type="text" size="39" required name="firstname" placeholder="Введите ваше имя"/>
+                            <span class=”red-asterix”>*</span>
+                            <br/>
+                            <br/>
+                            <input type="email" size="39" required name="e-mail" placeholder="Введите ваш e-mail"/>
+                            <span class=”red-asterix”>*</span>
+                            <br/>
+                            <br/>
+                            <input type="text" size="39" required name="phone" placeholder="Введите ваш телефон"/>
+                            <span class=”red-asterix”>*</span>
+                            <br/>
+                            <br/>
+                            <input type="text" size="39" required name="adres" placeholder="Введите адрес доставки: индекс, регион, город, дом."/>
+                            <span class=”red-asterix”>*</span>
+                            <br/>
+                            <!--<br/>
+                            <label>Выбрать товар</label><br/>
+                            <select name="order_payment">
+                                <option value="email" selected="selected"></option>
+                                <option value="email" selected="selected">Опт</option>
+                                <option value="robokassa">Розница</option>
+                            </select>
+                            <br/>-->
+                            <br/>
+                            <textarea rows="5" cols="40" required placeholder="Введите текст"></textarea>
+                            <span class=”red-asterix”>*</span>
+                            <br/>
+
+
+                            <label><input type="checkbox" required name="license" value="Согласен"/>
+                                Согласен с обработкой персональных данных<span class=”red-asterix”>*</span>
+                            </label><br>
+                            <label><input type="checkbox" name="advertisment" value="Согласен"/>Я хочу получать новостные
+                                рассылки
+                            </label><br>
+                            <br/>
+                            <input type="submit" value="Отправить"> &nbsp;
+                            <input type="reset" value="Очистить">
+
+                        </form>
+                    </div>
+
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-bottom">
+            <div class="phonem">
+
+                Phone: +7 904 909-71-43
+                <br/>
+                <br/>
+                Нижегородская обл.
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

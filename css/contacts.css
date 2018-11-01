@@ -1,0 +1,44 @@
+div.contacts-header {
+    background-image: url("../images/new-year-header-background.jpg");
+    background-attachment: fixed;
+    background-position: 200px -80px;
+}
+div.contacts-content>div.contacts-content__item {
+    margin-bottom: 20px; padding: 10px;
+    background-color: #E9E7F7;
+    transition: 700ms;
+}
+div.contacts-content>div.contacts-content__item:hover {
+    background-color: #e4e2f2;
+    transition: 300ms;
+}
+div.contacts-content__item>h2 {
+    text-align: center;
+    margin-top: 0;
+    color: darkgreen;
+}
+div.contacts-content>div.contacts-content__item>div>div:first-child {
+    float: left;
+    width: 301px;
+}
+div.contacts-content>div.contacts-content__item>div>div:first-child>img {
+    width: 301px;
+}
+div.contacts-content>div.contacts-content__item>div>div:nth-child(2) {
+    float: left;
+    width: 67%;
+    padding-left: 10px;
+}
+div.contacts-content>div.contacts-content__item>div>div:last-child {
+    clear: both;
+}
+.contacts {
+    font-style: italic;
+}
+dt {
+    font-weight: bolder;
+    color: darkgreen;
+}
+div.contacts>blockquote>h3 {
+    color: darkgreen;
+}

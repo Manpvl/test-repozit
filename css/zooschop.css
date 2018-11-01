@@ -1,0 +1,77 @@
+div.zooschop-header {
+    background-image: url("../images/new-year-header-background.jpg");
+    background-attachment: fixed;
+    background-position: 200px -80px;
+
+}
+div.zooschop-content>div.zooschop-content__item:nth-child(odd) {
+    margin-bottom: 20px; padding: 10px;
+    background-color: #E9E7F7;
+    transition: 700ms;
+}
+div.zooschop-content>div.zooschop-content__item:hover {
+    background-color: #e4e2f2;
+    transition: 300ms;
+}
+div.zooschop-content__item>h2 {
+    text-align: center;
+    margin-top: 0;
+    color: darkgreen;
+}
+div.video1 {
+
+}
+div.zooschop-content>div.zooschop-content__item>div>div:first-child {
+    float: left;
+    width: 301px;
+}
+div.zooschop-content>div.zooschop-content__item>div>div:first-child>img {
+    width: 301px;
+}
+div.zooschop-content>div.zooschop-content__item>div>div:nth-child(2) {
+    float: left;
+    width: 643px;
+    padding-left: 10px;
+}
+div.zooschop-content>div.zooschop-content__item>div>div:last-child {
+    clear: both;
+}
+div.zooschop-content__item>div>div.news {
+    margin-top: 0;
+    padding: 10px;
+}
+div.zooschop-content__item>div>div.news>h3 {
+    margin-top: 0;
+    color: darkgreen;
+}
+h2 {
+    color: darkgreen;
+}
+div.zooschop-content__item>div>div>div>table {
+    width: 100%;
+    border: 0;
+}
+.table tr td {
+    padding: 2px;
+}
+.table.table-stripped tr:nth-child(odd) {
+    background-color: #d5c3ff;
+}
+.table.table-stripped tr:hover {
+    background-color: #d5c3ff;
+}
+.table.table-tight tr td {
+    padding: 2px !important;
+}
+.table.table-stripped.ber-lines tr:nth-child(odd) {
+    background-color: #d6fcff;
+}
+.table.table-stripped.ber-lines tr:hover {
+    background-color: #d6fcff;
+}
+.table.table-stripped.blue-lines tr:nth-child(odd) {
+    background-color: #b4c7ff;
+}
+.table.table-stripped.blue-lines tr:hover {
+    background-color: #b4c7ff;
+}
